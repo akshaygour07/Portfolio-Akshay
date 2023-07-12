@@ -10,10 +10,10 @@ h1 {
     margin: 10px auto 0 auto;
     font-family: "Sacramento", cursive;
 }
-.mountain{
-    height: 195px;
+.theme{
+    position: relative;
+    top:100px;
 }
-
 .icon-square {
     width: 3rem;
     height: 3rem;
@@ -75,7 +75,21 @@ a{
 a:hover{
     color: white;
 }
+.btn{
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    
+}
+
+
 .copyright{
     color: white;
     padding: 20px;
+}
+
+.project{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
 }

@@ -1,12 +1,13 @@
 body {
     margin: 0;
-    font-family: "Merriweather", serif;
+    font-family: "Montserrat", sans-serif;
     background-color:whitesmoke;
+    color: #404040;
 }
 h1 {
     color: #66bfbf;
     font-size: 5.625rem;
-    margin: 10px auto 0 auto;
+    margin: 5px auto 0 auto;
     font-family: "Sacramento", cursive;
 }
 .theme{
@@ -30,7 +31,7 @@ h1 {
   }
   
 .top-container {
-    background: linear-gradient(300deg,  #11999e, #e4f9f5, #e3afdf);
+    background: linear-gradient(400deg,  #11999e,#e4f9f5, #ab76a8);
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -49,16 +50,28 @@ h1 {
     font-size: 18px;
 }
 
+h3{
+    font-size: 15px;
+}
+
 .svg-img{
     border-radius: 20px;
-    background-color:#66bfbf;
-    border: 2px solid #086063;
+    background-color:#086063;
+   color: aliceblue;
 }
 
 #skills{
     background-color: #e4f9f5;
     border-radius: 30px;
     border: 2px solid #086063;
+}
+
+.skillBar p span{
+    padding: 5px 10px;
+    margin: 3px 5px;
+    color: aliceblue;
+    border-radius: 5px;
+    background-color:#11999e;
 }
 
 .btn{
@@ -75,7 +88,7 @@ h1 {
 
 
 .bottom-container{ 
-    background: linear-gradient(300deg,  #11999e, #a2d3d3, #e3afdf);
+    background: linear-gradient(400deg,  #11999e, #a2d3d3, #ab76a8);
     padding: 50px 0 20px;
     color: #40514e;
     margin: auto;
